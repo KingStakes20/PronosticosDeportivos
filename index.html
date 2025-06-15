@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KingStakes20 | Pronósticos Deportivos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0b0c10;
+      color: #ffffff;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: #111111;
+    }
+    nav {
+      background-color: #111111;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #FFD700;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    .hero {
+      background: url('portada.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      position: relative;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+    .hero-content {
+      z-index: 2;
+      color: #FFD700;
+      padding: 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      animation: fadeInDown 1.5s ease;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ffffff;
+      animation: fadeInUp 2s ease;
+    }
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .section h2 {
+      color: #FFD700;
+      margin-bottom: 20px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #111111;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.2);
+    }
+    .card a {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #FFD700;
+      color: #111111;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      display: inline-block;
+    }
+    .testimonial-gallery img {
+      width: 90%;
+      max-width: 400px;
+      margin: 10px;
+      border-radius: 10px;
+      border: 2px solid #FFD700;
+    }
+    .payment-methods img {
+      height: 50px;
+      margin: 10px;
+      vertical-align: middle;
+    }
+    .floating-buttons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .floating-buttons img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 2px solid #FFD700;
+    }
+    footer {
+      background-color: #111111;
+      color: #c5c6c7;
+      text-align: center;
+      padding: 20px;
+      border-top: 1px solid #FFD700;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="hero-content">
+      <h1>Bienvenido a KingStakes20</h1>
+      <p>Expertos en análisis, pronósticos deportivos y apuestas con valor real.</p>
+    </div>
+  </div>
+
+  <nav>
+    <a href="#quienes">¿Quiénes Somos?</a>
+    <a href="#planes">Planes</a>
+    <a href="#pagos">Pagos</a>
+    <a href="#noticias">Noticias</a>
+    <a href="#testimonios">Testimonios</a>
+  </nav>
+
+  <section class="section" id="quienes">
+    <h2>¿Quiénes Somos?</h2>
+    <p>Somos KingStakes20, el mejor equipo tipster del Perú. Contamos con años de experiencia ofreciendo pronósticos deportivos certeros, análisis de valor y estrategias de banca profesional. Con más de 7.9K seguidores en Telegram, hemos construido una comunidad de apostadores responsables y exitosos. Nuestra misión es ayudarte a ganar con apuestas inteligentes, cuotas de alto valor y disciplina.</p>
+  </section>
+
+  <section class="section" id="planes">
+    <h2>Planes Disponibles</h2>
+    <div class="cards">
+      <div class="card"><h3>Plan VIP</h3><p>Canal privado con análisis diarios.</p><a href="https://t.me/+uzAVa7sAv9phMDkx">Acceso VIP</a></div>
+      <div class="card"><h3>Venta de Stakes</h3><p>Pronósticos sueltos con cuotas altas.</p><a href="https://t.me/+uzAVa7sAv9phMDkx">Comprar stake</a></div>
+      <div class="card"><h3>Pack Mensual</h3><p>Recibe 2 a 3 apuestas al día.</p><a href="https://t.me/+uzAVa7sAv9phMDkx">Obtener pack</a></div>
+      <div class="card"><h3>Manejo de Cuenta</h3><p>Gestionamos tu cuenta profesionalmente.</p><a href="https://t.me/+uzAVa7sAv9phMDkx">Solicitar gestión</a></div>
+    </div>
+  </section>
+
+  <section class="section" id="pagos">
+    <h2>Métodos de Pago</h2>
+    <div class="payment-methods">
+      <img src="yape.png" alt="Yape">
+      <img src="plin.png" alt="Plin">
+      <img src="bbva.png" alt="BBVA">
+      <img src="bcp.png" alt="BCP">
+      <img src="paypal.png" alt="PayPal">
+    </div>
+  </section>
+
+  <section class="section" id="noticias">
+    <h2>Últimas Noticias Deportivas</h2>
+    <div style="max-width: 900px; margin: auto;">
+      <iframe src="https://widget.livescore.com/widgets/news-widget?category=soccer&language=es&theme=dark" width="100%" height="600" frameborder="0" scrolling="yes"></iframe>
+    </div>
+  </section>
+
+  <section class="section testimonial-gallery" id="testimonios">
+    <h2>Testimonios Reales</h2>
+    <img src="testimonio1.jpg"><img src="testimonio2.jpg"><img src="testimonio3.jpg">
+    <img src="testimonio4.jpg"><img src="testimonio5.jpg"><img src="testimonio6.jpg">
+  </section>
+
+  <div class="floating-buttons">
+    <a href="https://t.me/+uzAVa7sAv9phMDkx"><img src="telegram.png"></a>
+    <a href="https://www.instagram.com/king_stakes_20"><img src="instagram.png"></a>
+    <a href="https://www.tiktok.com/@kingstakes20"><img src="tiktok.png"></a>
+  </div>
+
+  <footer>&copy; 2025 KingStakes20 - Juego responsable. Sitio informativo para mayores de 18 años.</footer>
+</body>
+</html>
